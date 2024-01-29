@@ -1,7 +1,7 @@
-function reverseString(ste) {
+function reverseString(str) {
     let strArr=[...str];
     let revStrArr=[];
-    for(let letter of strArr){
+    for(letl letter of strArr){
         revStrArr.push(letter);
     }
     return revStrArr.toString();
