@@ -1,12 +1,10 @@
-function reverseString(word) {
-    let reverse=[];
-    for(i=word.length;i--;){
-        // console.log(word[i]);
-        reverse.push(word[i])
-        
+function reverseString(str) {
+    let strArr=[...str];
+    let revStrArr=[];
+    for(letl letter of strArr){
+        revStrArr.push(letter);
     }
-    // reverse=reverse.toString();
-    return reverse.join('');
+    return revStrArr.toString();
 }
-// console.log(reverseString('Hello'));
+
 module.exports = reverseString;
