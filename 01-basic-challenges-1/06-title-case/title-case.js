@@ -8,6 +8,7 @@ function titleCase ( str ) {
         sentence[ 0 ] = sentence[ 0 ].toUpperCase();
         output.push( sentence.join( '' ) );
     }
+    // console.log(output.join(' ').toString());
     return ( output.join( ' ' ).toString() );
 }
 
