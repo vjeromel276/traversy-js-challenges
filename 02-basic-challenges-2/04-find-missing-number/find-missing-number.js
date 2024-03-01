@@ -5,11 +5,11 @@ function findMissingNumber ( arr ) {
         return 1;
     }
     let expSum = ((arr.length+1) * ( arr.length + 2 ) / 2);
-    console.log( expSum );
+    // console.log( expSum );
     let actSum = 0;
     arr.forEach( element => {
         actSum += element;
-        console.log( `actSum: ${ actSum } ele: ${ element }` );
+        // console.log( `actSum: ${ actSum } ele: ${ element }` );
     } );
     return expSum - actSum;
 }
